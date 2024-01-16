@@ -1,3 +1,4 @@
+/* Import the Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=VT323&display=swap");
 
 body {
@@ -97,6 +98,6 @@ footer {
 
   footer {
     position: relative;
-    bottom: 0;
+    bottom: 20px; 
   }
 }
