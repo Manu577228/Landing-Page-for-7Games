@@ -1,0 +1,98 @@
+/* Import the Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=VT323&display=swap");
+
+body {
+  font-family: "VT323", monospace;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://wallpaperaccess.com/full/3492868.gif");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "VT323", monospace;
+  font-weight: bold;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+nav a:hover {
+  background-color: #ffd700;
+  color: #333;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: rgb(202, 12, 75);
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+  display: block;
+  opacity: 0.8;
+  margin-left: 95px;
+}
+
+main {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+footer {
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  nav a {
+    margin: 5px;
+    font-size: 14px;
+  }
+}
