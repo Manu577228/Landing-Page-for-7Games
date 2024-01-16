@@ -20,7 +20,7 @@ header {
   background-color: transparent;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 2px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 5px;
   background-color: transparent;
   display: flex;
@@ -85,7 +85,7 @@ footer {
   background-color: transparent;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   width: 100%;
   box-sizing: border-box;
 }
