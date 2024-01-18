@@ -87,6 +87,7 @@ footer {
   padding: 40px;
   width: 100%;
   box-sizing: border-box;
+  margin-top: -40px;
 }
 
 @media (max-width: 768px) {
@@ -97,6 +98,6 @@ footer {
 
   footer {
     position: relative;
-    bottom: 30px; 
+    bottom: 40px; 
   }
 }
